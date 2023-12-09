@@ -10,7 +10,6 @@
     --Darkblue: hsl(218, 44%, 22%);
 }
 #container{
-    width: 100%;
     background-color:hsl(212, 45%, 89%);
     padding-top: 110.2px;
     padding-bottom: 110.2px;
@@ -49,4 +48,22 @@
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 400px){
+    #container{
+
+    }
+    #codigo-qr{
+        width: 70%;
+    }
+    #informacion h2{
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+    #informacion p{
+        font-size: 16px;
+    }
+    .attribution{
+        font-size: 10px;
+    }
 }
