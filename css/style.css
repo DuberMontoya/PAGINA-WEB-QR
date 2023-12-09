@@ -50,9 +50,6 @@
     color: hsl(228, 45%, 44%); 
 }
 @media (max-width: 400px){
-    #container{
-
-    }
     #codigo-qr{
         width: 70%;
     }
